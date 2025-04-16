@@ -5,7 +5,7 @@
 - **Frontend**: Next.js 15.3.0, React 19, TypeScript, ky, framer-motion, react-hook-form
 - **Backend**: NestJS, class-validator, swagger
 - **Стилизация**: Panda CSS, Material-UI
-- **Оптимизация**: optimizeCss, optimizePackageImports
+- **Оптимизация**: critters, optimizePackageImports
 - **SEO**: Next.js Metadata API, Schema.org, JSON-LD
 
 ## 🛠 Установка и запуск
