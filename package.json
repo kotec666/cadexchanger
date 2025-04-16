@@ -10,7 +10,9 @@
     "frontend"
   ],
   "scripts": {
-    "start": "concurrently \"yarn workspace frontend dev\" \"yarn workspace backend start:dev\""
+    "dev": "concurrently \"yarn workspace frontend dev\" \"yarn workspace backend start:dev\"",
+    "build": "concurrently \"yarn workspace frontend build\" \"yarn workspace backend build\"",
+    "start": "concurrently \"yarn workspace frontend start\" \"yarn workspace backend start:prod\""
   },
   "dependencies": {
     "concurrently": "^9.1.2",
