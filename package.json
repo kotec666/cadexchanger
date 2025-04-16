@@ -1,0 +1,19 @@
+{
+  "name": "cadex",
+  "version": "1",
+  "main": "index.js",
+  "author": "kotec",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "start": "concurrently \"yarn workspace frontend dev\" \"yarn workspace backend start:dev\""
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2",
+    "dotenv": "^16.5.0"
+  }
+}

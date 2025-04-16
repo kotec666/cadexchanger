@@ -1,0 +1,14 @@
+:root {
+  --text-color: #171717;
+}
+
+body {
+  color: var(--text-color);
+  font-family: Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}

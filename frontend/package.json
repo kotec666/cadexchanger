@@ -1,0 +1,39 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prepare": "panda codegen",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@hookform/error-message": "^2.0.1",
+    "@mui/material": "^7.0.2",
+    "dotenv": "^16.5.0",
+    "framer-motion": "^12.7.3",
+    "ky": "^1.8.1",
+    "lite-youtube-embed": "^0.3.3",
+    "next": "15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.55.0",
+    "react-lite-youtube-embed": "^2.4.0",
+    "react-toastify": "^11.0.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@pandacss/dev": "^0.53.3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "critters": "^0.0.20",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.0",
+    "typescript": "^5"
+  }
+}
