@@ -4,9 +4,6 @@
 /build
 /backend/dist
 /frontend/.next
-/frontend/styled-system
-/frontend/styled-system-studio
-
 
 # Logs
 logs

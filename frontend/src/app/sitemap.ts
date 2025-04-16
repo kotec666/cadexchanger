@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { LINKS } from "@/consts/links";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = "https://cadex.ru";
+  const baseUrl = "https://aleksey-kotov.ru/";
   const lastModified = "2025-04-16"; // yyyy-mm-DD
 
   return [

@@ -13,4 +13,4 @@ Allow: /
 Disallow: /_next
 Disallow: /api
 
-Sitemap: https://cadex.ru/sitemap.xml
+Sitemap: https://aleksey-kotov.ru/sitemap.xml
